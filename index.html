@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AURA – Vitamindryck</title>
+  <meta name="description" content="AURA – fräsch vitamindryck med rena smaker. Kolsyrad, 33 cl.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">A</div>
+        <span class="name">AURA</span>
+      </div>
+      <nav class="nav">
+        <a href="#produkt">Produkt</a>
+        <a href="#ingredienser">Ingredienser</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn" id="buyBtn" href="{{SQUARE_CHECKOUT_URL}}" target="_blank" rel="noopener">Köp nu</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <h1>Fräsch vitamindryck<br><span class="accent">utan kompromisser</span></h1>
+          <p>Kolsyrad 33&nbsp;cl. Lätt, krispig och full av vitaminer. Perfekt för vardag och träning.</p>
+          <div class="cta">
+            <a class="btn btn--primary" id="buyBtn2" href="{{SQUARE_CHECKOUT_URL}}" target="_blank" rel="noopener">Köp AURA</a>
+            <a class="btn btn--ghost" href="#produkt">Läs mer</a>
+          </div>
+          <ul class="badges">
+            <li>BPA-fri burk</li>
+            <li>Utan tillsatt socker</li>
+            <li>Vegan</li>
+          </ul>
+        </div>
+        <div class="hero__image">
+          <div class="can"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="produkt" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>Varför AURA?</h2>
+          <p>AURA är utvecklad för att ge en ren smakupplevelse och ett smart vitaminupplägg. Lätta bubblor, tydlig smak och noll krångel.</p>
+          <ul class="list">
+            <li>33 cl slim-can, perfekt on-the-go</li>
+            <li>Vitaminer för vardagsenergi*</li>
+            <li>Producerad i Sverige</li>
+          </ul>
+          <small class="muted">*Näringspåstående enligt EU-förordning beroende på slutlig formula.</small>
+        </div>
+        <div class="card spec">
+          <h3>Snabbfakta</h3>
+          <ul>
+            <li>Kategori: Vitamindryck (kolsyrad)</li>
+            <li>Volym: 33 cl</li>
+            <li>Servering: väl kyld</li>
+            <li>Smaker: Ange här</li>
+          </ul>
+          <a class="btn btn--primary" href="{{SQUARE_CHECKOUT_URL}}" target="_blank" rel="noopener">Köp nu</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="ingredienser" class="section alt">
+      <div class="container grid-3">
+        <div class="card">
+          <h3>Ingredienser</h3>
+          <p>Skriv in era ingredienser här. Ex: Kolsyrat vatten, naturliga aromer, vitaminer, sötningsmedel.</p>
+        </div>
+        <div class="card">
+          <h3>Näring</h3>
+          <p>Ange näringsdeklaration per 100 ml och per burk.</p>
+        </div>
+        <div class="card">
+          <h3>Allergener</h3>
+          <p>Innehåller inga vanliga allergener. Bekräfta efter slutlig formula.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <h2>Vanliga frågor</h2>
+        <details>
+          <summary>Är AURA en energidryck?</summary>
+          <p>Nej, AURA är en vitamindryck. (Om ni väljer variant med koffein, uppdatera texten.)</p>
+        </details>
+        <details>
+          <summary>Var kan jag köpa?</summary>
+          <p>Online via vår checkout-länk och hos utvalda återförsäljare.</p>
+        </details>
+        <details>
+          <summary>Hur lång hållbarhet?</summary>
+          <p>Fyll i enligt batch-information och labbtest.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="brand">
+        <div class="logo">A</div>
+        <span class="name">AURA</span>
+      </div>
+      <div class="foot-links">
+        <a href="#produkt">Produkt</a>
+        <a href="#faq">FAQ</a>
+        <a href="mailto:hello@example.com">Kontakt</a>
+      </div>
+      <p class="muted">© 2025 AURA. Alla rättigheter förbehålls.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
